@@ -1,0 +1,17 @@
+name: List PR Commit Messages
+description: 'List the commit messages on a pull request'
+inputs:
+  repo-token: 
+    description: 'GitHub Token with appropriate permissions'
+    required: true
+  pr-number: 
+    description: 'Pull request number from calling workflow'
+    required: true
+
+outputs:
+  changelog-text:
+    description: Text output from list-prcommit-messages.js
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
