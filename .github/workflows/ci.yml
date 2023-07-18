@@ -1,4 +1,4 @@
-name: CI Testing Description Update
+name: CI Testing PR Commit Message Listing
 on: [workflow_dispatch]
 
 jobs:
