@@ -16,7 +16,7 @@ jobs:
         with:
           pr-number: 1
           repo-token: ${{ secrets.GH_REPO_CONFIG}}
-      - name: Display type
+      - name: Display commit messages
         id: display
         run: |
           echo ${{ steps.list.output.changelog-text}}
