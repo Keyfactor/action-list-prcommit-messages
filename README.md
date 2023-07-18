@@ -13,6 +13,6 @@ jobs:
         id: list
         uses: ./ 
         with:
-          pr-number: 1
+          pr-number: 1 # This should be supplied by the build workflow
           repo-token: ${{ secrets.TEST_ACTION_GH_PAT}}
 
