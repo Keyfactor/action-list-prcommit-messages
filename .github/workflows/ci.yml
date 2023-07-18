@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 jobs:
   read_type:
     runs-on: ubuntu-latest
-    name: A test job to update the repository description from integration-manifest.json
+    name: A CI job to list the Commit Messages on a PR
     steps:
       - name: Checkout
         uses: actions/checkout@v3
