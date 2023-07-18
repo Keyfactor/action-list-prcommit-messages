@@ -1,5 +1,5 @@
 name: CI Testing PR Commit Message Listing
-on: [workflow_dispatch]
+on: [workflow_dispatch, pull_request, push]
 
 jobs:
   read_type:
